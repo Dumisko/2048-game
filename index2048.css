@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #90ee90;
+}
+
+
+#board{
+   
+    width: 400px;
+    height: 400px;
+
+    background-color: #cbc1b5;
+    border: 6px solid #bbada0;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tile{
+width: 90px;
+height: 90px;
+border: 5px solid #bbada0;
+
+font-size: 40px;
+font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.x2{
+    background-color: #eee4da;
+    color: #727371;
+
+}
+.x4{
+    background-color: #ece0ca;
+    color: #727371;
+    
+}
+.x8{
+    background-color: #f4b17a;
+    color: white;
+    
+}
+.x16{
+    background-color: #f59575;
+    color: white;
+    
+}
+.x32{
+    background-color: #f57c5f;
+    color: white;
+    
+}
+.x64{
+    background-color: rgb(0, 255, 51);
+    color: rgb(92, 12, 12);
+    
+}
+.x128{
+    background-color: aqua;
+    color: white;
+    
+}
+.x256{
+    background-color: yellow;
+    color: white;
+    
+}
+.x512{
+    background-color: green;
+    color: white;
+    
+}
+.x1024{
+    background-color: purple;
+    color: white;
+    
+}
+.x2048{
+    background-color: red;
+    color: white;
+    
+}
+.x4096{
+    background-color: grey;
+    color: black;
+    
+}
+.x8192{
+    background-color: crimson;
+    color: white;
+    
+}
+
+
